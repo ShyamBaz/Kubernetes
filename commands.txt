@@ -1,0 +1,27 @@
+> kubectl run <pod-name> --image=<img-name>
+
+> kubectl get pods
+
+> kubectl describe pod <pod-name>
+
+> kubectl delete pod <pod-name>
+
+> kubectl create -f <pod-definition-file-name.yml>
+
+> kubectl create -f <replicaset-definition-filename.yml>
+
+> kubectl get replicaset
+
+> kubectl describe replicaset <replicaset-name>
+
+> kubectl scale --replicas=3 -f <replicaset-definition-filename.yml>
+
+> kubectl scale --replicas=3 replicaset <replicaset-name>
+
+> kubectl create -f <deployment-definition-filename.yml>
+
+> kubectl get deployments
+
+> kubectl describe deployment <deployments-name>
+
+> kubectl get all
