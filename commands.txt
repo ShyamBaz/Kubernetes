@@ -18,10 +18,24 @@
 
 > kubectl scale --replicas=3 replicaset <replicaset-name>
 
+> kubectl edit replicaset <name-of-the-replicaset>
+
 > kubectl create -f <deployment-definition-filename.yml>
 
-> kubectl get deployments
+> kubectl apply -f <deployment-definition-filename.yml>
+
+> kubectl set image deployment <name-of-the-deployment> nginx=nginx:1.7.1
+
+> kubectl get deployment
 
 > kubectl describe deployment <deployments-name>
 
 > kubectl get all
+
+> kubectl rollout status <name-of-the-deployment>
+
+> kubectl rollout history <name-of-the-deployment>
+
+> kubectl rollout undo <name-of-the-deployment>
+
+> kubectl edit deployment <name-of-the-deployment>
