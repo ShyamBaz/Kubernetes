@@ -39,3 +39,7 @@
 > kubectl rollout undo <name-of-the-deployment>
 
 > kubectl edit deployment <name-of-the-deployment>
+
+> kubectl create -f <service-definition-filename.yml>
+
+> kubectl get services
